@@ -52,16 +52,12 @@ input[type='text']{width:35px;height:35px;padding:5px 10px;margin:5px;border:1px
 距离下次自动刷新时间：
      <input type="text" id="minute_show">分<input type="text" id="second_show">秒
 <?php
-/*
-$servername = "116.62.188.156:3797";
+
+$servername = "ip:port";
 $username = "root";
-$password = "@2008WhatW&UJM";
+$password = "passwd";
 $dbname = "ai01";
-*/
-$servername = "91family.net:3307";
-$username = "root";
-$password = "2wsx#EDC";
-$dbname = "ai01";
+
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
